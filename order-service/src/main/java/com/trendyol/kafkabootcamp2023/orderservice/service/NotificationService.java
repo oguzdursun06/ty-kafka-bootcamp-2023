@@ -1,6 +1,7 @@
 package com.trendyol.kafkabootcamp2023.orderservice.service;
 
 import com.trendyol.kafkabootcamp2023.orderservice.messaging.message.OrderCreatedMessage;
+import com.trendyol.kafkabootcamp2023.orderservice.messaging.message.OrderDeliveredMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
